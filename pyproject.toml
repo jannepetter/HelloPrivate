@@ -1,0 +1,8 @@
+[build-system]
+requires = ["setuptools.build_meta"]
+
+[project]
+name = "HelloPrivate"
+version = "0.0.1"
+description = "minimal test"
+requires-python = ">=3.7"

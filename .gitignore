@@ -1,0 +1,3 @@
+dist/
+HelloPrivate.egg-info/
+.env
