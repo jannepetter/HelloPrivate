@@ -2,4 +2,4 @@ def say_hello():
     """
     Test.
     """
-    return "Hello from HelloPrivate version v0.0.1"
+    return "Hello from HelloPrivate version v0.0.2"
