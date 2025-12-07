@@ -1,8 +1,12 @@
 [build-system]
-requires = ["setuptools.build_meta"]
+requires = ["setuptools>=61.0", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "HelloPrivate"
-version = "0.0.1"
 description = "minimal test"
 requires-python = ">=3.7"
+dynamic = ["version"]
+
+[tool.setuptools_scm]
+write_to = "hello_private/_version.py"

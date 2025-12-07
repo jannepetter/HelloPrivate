@@ -1,3 +1,4 @@
 dist/
 HelloPrivate.egg-info/
 .env
+_version.py
